@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+/*  per tornare con il margine
+    .container{
+        margin: auto;
+        width: 80%;
+        height: 100%;
+    } 
+*/
+
+/* senza margine */
+.logocontainer{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+/* prima parte colori e sfondi utili */
+.txt-color-white{
+    color: white;
+}
+
+.txt-color-gray{
+    color: gray;
+}
+
+.txt-color-lightblue{
+    color: #28ACE5;
+}
+
+.txt-highlight-yellow{
+    background-color: #FFFF00;
+}
+
+.bg-thead-color{
+    background-color: #20A9E5;
+}
+.bg-tbody-color{
+    background-color: #B1E5F2;
+}
+
+/* seconda parte organizzazione resto in ordine di apparizione*/
+header{
+    background-image: url(img/pattern.png);
+    background-color: #4EA0FF;
+    height: 180px;
+}
+
+#logo{
+    height: 100%;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+h1{
+    font-size: 58px;
+    font-weight: 800;
+}
+
+.autor{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.photo-description{
+    font-size: 10px;
+}
+
+.tab-el-1{
+    width: 20%;
+}
+
+.tab-el-2{
+    width: 20%;
+}
+
+.tab-el-3{
+    width: 60%;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.other-article1{
+    background-image: url(img/monitor.jpg);
+    position: relative;
+    width: 311px;
+    height: 207px;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.other-article2{
+    background-image: url(img/graph.jpg);
+    position: relative;
+    width: 311px;
+    height: 207px;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 10px;
+    margin-bottom: 10px;
+}
